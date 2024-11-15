@@ -1,0 +1,35 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
