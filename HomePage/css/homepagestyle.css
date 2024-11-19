@@ -7,7 +7,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     width: 90%;
     max-width: 1200px;
@@ -16,7 +16,7 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex;
+    display: flex;    
     gap: 1.5rem;
 }
 
@@ -37,3 +37,6 @@ nav ul li a {
     gap: 1.5rem;
 }
 
+img {
+    float: right;
+}
