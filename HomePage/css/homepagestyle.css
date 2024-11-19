@@ -40,3 +40,16 @@ nav ul li a {
 img {
     float: right;
 }
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-end; /* Align to the right */
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 1rem; /* Add spacing between items */
+    }
+}
+
